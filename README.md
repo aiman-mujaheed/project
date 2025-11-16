@@ -1,27 +1,19 @@
-# Notes CLI Application
+# C Programming Projects
 
-This is a simple command-line notes application written in C.  
-The program allows users to add notes, view all saved notes, and clear existing notes. All notes are saved in a local `notes.txt` file.
-
----
-
-## Features
-
-- Add note
-- View saved notes
-- Clear all notes
-- Runs in terminal
-- Beginner-friendly C implementation
+This repository contains multiple small C projects built for learning and practice purposes.  
+Each project runs in the terminal and is designed to improve basic programming, logic, and problem-solving skills.
 
 ---
 
-## Requirements
+## 📁 Projects List
 
-- GCC or any C compiler
-- Terminal or command prompt
+| Project Name | Description | Location | How to Run |
+|--------------|-------------|-----------|-------------|
+| **Notes CLI App** | A simple note-taking program that stores notes in `notes.txt`. | `/notes/` | `gcc notes.c -o notes` → `./notes` |
+| **Task Manager CLI** | A basic task manager menu program with add/view/delete options. | `/task-manager/` | `gcc task_manager.c -o taskmgr` → `./taskmgr` |
+| **Others (More Soon)** | Future C mini-projects will be added here. | `/` | — |
 
 ---
 
-## How to Compile and Run
+## 📂 Repository Structure
 
-### Compile
